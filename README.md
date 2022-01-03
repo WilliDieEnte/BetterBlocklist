@@ -31,7 +31,7 @@ If you find something in a List that you believe is a mistake or breaks function
 | YouTube | Blocks the entirety of YouTube | <a href="https://ente.dev/api/blocklist/youtube">link</a> | ❌ |
 | YouTube-ADS | Blocks most Ads without blocking actual YouTube Videos | <a href="https://ente.dev/api/blocklist/youtube-advertising">link</a> | ✔️ |
 
-# Aditions:
+# Additions:
 Repository for the <a href="https://ente.dev/api/blocklist/">ente.dev Blocklist</a>.
 
 No need to, but if you are financially stable, a Donation would be appreciated 💖
