@@ -1,5 +1,5 @@
 # BetterBlocklist
-<b>Better Blocklist</b> is a collection of powerful and customizeable DNS Blocklists against ADs, Tracking and privacy harming Services. Updated Regularly with support for Pi-Hole, AdGuard, uBlock Origin and host Files.
+<b>Better Blocklist</b> is a collection of powerful and customizeable DNS Blocklists against Ads, Tracking and privacy harming Services. Updated Regularly with support for Pi-Hole, AdGuard, uBlock Origin and host Files.
 
 <a href="https://ente.dev/api/blocklist/"><img alt="Uptime" src="https://img.shields.io/uptimerobot/ratio/m790233095-b930c119bda990ba3d73fcf2?style=for-the-badge"></a>
 <a href="https://ente.dev/api/blocklist/"><img alt="Open Source" src="https://img.shields.io/badge/Open%20Souce-yes-success?style=for-the-badge"></a>
@@ -22,7 +22,7 @@ If you find something in a List that you believe is a mistake or breaks function
 | Google-AMP | Blocks <a href="https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/">Google AMP</a> Pages | <a href="https://ente.dev/api/blocklist/google-amp">link</a> | ✔️ |
 | Suspicious | Includes Fraud, Scams, Malware, Phishing, etc. | <a href="https://ente.dev/api/blocklist/suspicious">link</a> | ✔️ |
 | Tracking | Sites and Serviced dedicated to gather info about you | <a href="https://ente.dev/api/blocklist/tracking">link</a> | ✔️ |
-| TV | Smart TV & Fire TV Telemtery and ADs | <a href="https://ente.dev/api/blocklist/tv">link</a> | ✔️ |
+| TV | Smart TV & Fire TV Telemtery and Ads | <a href="https://ente.dev/api/blocklist/tv">link</a> | ✔️ |
 | Facebook | Block all Services relating to Facebook, Instagram & WhatsApp | <a href="https://ente.dev/api/blocklist/facebook">link</a> | ❌ |
 | TikTok | Blocks TikTok, formerly known as Musically | <a href="https://ente.dev/api/blocklist/tiktok">link</a> | ✔️ |
 | Twitter | Blocks <strike>the trash Fire</strike> Twitter | <a href="https://ente.dev/api/blocklist/twitter">link</a> | ❌ |
