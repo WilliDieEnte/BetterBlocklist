@@ -73,7 +73,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 
 - Your hosts file Location:
    - Linux, Unix and Mac OS X -> ``/etc/hosts``
-   - Windows XP, Vista and Windows 7 -> ``C:\WINDOWS\system32\drivers\etc\hosts``
+   - Windows XP, Vista, 7, 8, 10 and 11 -> ``C:\WINDOWS\system32\drivers\etc\hosts``
    - Windows 2000 -> ``C:\WINNT\system32\drivers\etc\hosts``
    - Windows 98/ME -> ``C:\WINDOWS\hosts``
 
