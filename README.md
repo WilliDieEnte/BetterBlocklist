@@ -83,6 +83,11 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 
 - <a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution"><b>I very much recommend you to use unbound in addition to Pi-Hole for better Privacy</b></a>
 
+A great Way of finding fake Shops is just searching the following Keywords:
+ - <a href="https://duckduckgo.com/?q=Kindly+keep+in+mind+that+we+produce+on+demand.+We+do+not+stock+items">Kindly keep in mind that we produce on demand. We do not stock items</a>
+ - <a href="https://duckduckgo.com/?q=Every+day+we+receive+more+appreciative+emails+from+satisfied+customers+all+over+the+world">Every day we receive more appreciative emails from satisfied customers all over the world</a>
+ - <a href="https://duckduckgo.com/?q=Everyday%2C+we+strive+to+deliver+high+quality+products+with+the+greatest+customer+experience+possible">Everyday, we strive to deliver high quality products with the greatest customer experience possible</a>
+
 If you have any questions about this project, open an issue and let's have a discussion! :3
 
 Repository for the <a href="https://ente.dev/api/blocklist/">ente.dev Blocklist</a> under the <a href="https://willidieente.mit-license.org/">MIT License</a>.
