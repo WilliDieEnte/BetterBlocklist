@@ -69,6 +69,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 # Additions
 - Dependencies are updated automatically every week.
 
+
 - <a href="https://www.makeuseof.com/tag/stop-using-ccleaner-windows/"><b>Why should I avoid CCleaner?</b></a>
 
 - Your hosts file Location:
@@ -76,6 +77,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
    - Windows XP, Vista, 7, 8, 10 and 11 -> ``C:\WINDOWS\system32\drivers\etc\hosts``
    - Windows 2000 -> ``C:\WINNT\system32\drivers\etc\hosts``
    - Windows 98/ME -> ``C:\WINDOWS\hosts``
+<br><b>WARNING: Do not use Host files larger than 1MB on Windows directly, Windows can't handle that and won't do any lookups anymore for some obscure reason. Rather use <a href="https://pi-hole.net/">Pi-Hole</a> or <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></b>
 
 - The ente.dev Domain uses Cloudflare <a href="https://www.cloudflare.com/products/argo-smart-röouting/">Argo Smart Routing</a> and <a href="https://www.cloudflare.com/cdn/">CDN</a> in combination with a strong Server for the fastest delivery possible globally, so you shouldn't experience much delay in pulling updates from these lists.
 
