@@ -1,4 +1,3 @@
-<h1>I'm so Sorry for the downtime! My ISP has major outages in my area and the offsite backup isn't up yet :/ The API will be avaiable again ASAP, but I sadly can't do much rn...</h1>
 # BetterBlocklist
 <b>Better Blocklist</b> is a collection of powerful and customizable DNS Blocklists against Ads, Tracking and privacy harming Services. Updated regularly with support for Pi-Hole, AdGuard(-Home), uBlock Origin and host Files.
 
