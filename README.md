@@ -4,10 +4,11 @@
 Please Contribute if you have any Suggestion by opening an Issue: https://github.com/WilliDieEnte/BetterBlocklist/issues
 
 <a href="https://ente.dev/api/blocklist/"><img alt="Uptime" src="https://img.shields.io/uptimerobot/ratio/m787547520-8b1348a54a8510fe5c6b44ec?style=for-the-badge"></a>
-<a href="https://ente.dev/api/blocklist/"><img alt="Open Source" src="https://img.shields.io/badge/Open%20Souce-yes-success?style=for-the-badge"></a>
 <a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
 <a href="https://willidieente.mit-license.org"><img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge"></a>
 <a href="https://ente.dev/"><img alt="♥" src="https://img.shields.io/badge/Made%20with%20%E2%99%A5%20in-Germany-success?style=for-the-badge"></a><br>
+
+### Please note that the lists are not hosted on GitHub and therefore no activity is shown in this Repository, although they are getting updated constantly :)
 
 # Details
 A collection of Blocklists for various Purposes. In comparison to other Lists which are all or nothing, you can exactly choose what you want to block.
