@@ -3,7 +3,6 @@
 
 Please Contribute if you have any Suggestion by opening an Issue: https://github.com/WilliDieEnte/BetterBlocklist/issues
 
-<a href="https://ente.dev/api/blocklist/"><img alt="Uptime" src="https://img.shields.io/uptimerobot/ratio/m787547520-8b1348a54a8510fe5c6b44ec?style=for-the-badge"></a>
 <a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
 <a href="https://willidieente.mit-license.org"><img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge"></a>
 <a href="https://ente.dev/"><img alt="♥" src="https://img.shields.io/badge/Made%20with%20%E2%99%A5%20in-Germany-success?style=for-the-badge"></a><br>
@@ -49,7 +48,7 @@ All lists are accessible using the following Scheme:
 | Microsoft | Attempts to block all Microsoft Services, including Skype | <a href="https://ente.dev/api/blocklist/microsoft">domains</a>, <a href="https://ente.dev/api/blocklist/microsoft-hosts">hosts</a> |
 | Pinterest | Blocks Pinterest | <a href="https://ente.dev/api/blocklist/pinterest">domains</a>, <a href="https://ente.dev/api/blocklist/pinterest">hosts</a> |
 | Snapchat | Blocks the usage of Snapchat | <a href="https://ente.dev/api/blocklist/snapchat">domains</a>, <a href="https://ente.dev/api/blocklist/snapchat-hosts">hosts</a> |
-| Twitter | Blocks <strike>the trash Fire</strike> Twitter | <a href="https://ente.dev/api/blocklist/twitter">domains</a>, <a href="https://ente.dev/api/blocklist/twitter-hosts">hosts</a> |
+| Twitter | Blocks <strike>the trash Fire</strike> <strike>Twitter</strike> X? | <a href="https://ente.dev/api/blocklist/twitter">domains</a>, <a href="https://ente.dev/api/blocklist/twitter-hosts">hosts</a> |
 
 Please open an Issue if you find any false flag or have any Domain that should be added to any Blocklist.
 
@@ -68,7 +67,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://coveryourtracks.eff.org/
 
 # Additions
-- Dependencies are updated automatically every week.
+- Dependencies are updated automatically every day.
 
 
 - <a href="https://www.makeuseof.com/tag/stop-using-ccleaner-windows/"><b>Why should I avoid CCleaner?</b></a>
@@ -92,8 +91,6 @@ A great Way of finding fake Shops is just searching the following Keywords:
 If you have any questions about this project, open an issue and let's have a discussion! :3
 
 Repository for the <a href="https://ente.dev/api/blocklist/">ente.dev Blocklist</a> under the <a href="https://willidieente.mit-license.org/">MIT License</a>.
-
-💖 No need to, but if you are financially stable, a Donation would be appreciated: <a href="https://www.patreon.com/WilliDieEnte/"><img alt="Patreon" src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white">
 
 # Disclaimer
 The lists contained here are provided as is, with no warranty as to their accuracy. It is your responsibility to whitelist/blacklist as you see fit for your needs and your environment. These lists are provided free of charge, are open for use by anyone, and are maintained by myself in my spare time. These lists are collections of domains I have come across, therefore these are not perfectly curated and vetted lists, however I try to do my best to avoid false positives and inaccuracies in all cases.
