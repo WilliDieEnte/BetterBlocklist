@@ -62,7 +62,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://adguard.com/
 - https://adaway.org/
 - https://disconnect.me/
-- https://firebog.net/
+- [https://firebog.net/](https://github.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists)
 - https://hmirror.molinero.dev/
 - https://coveryourtracks.eff.org/
 
