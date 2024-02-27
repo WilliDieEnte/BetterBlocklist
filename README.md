@@ -1,11 +1,10 @@
 # BetterBlocklist
 <b>Better Blocklist</b> is a collection of powerful and customizable DNS Blocklists against Ads, Tracking and privacy harming Services. Updated regularly with support for Pi-Hole, AdGuard(-Home), uBlock Origin and host Files.
 
-Please Contribute if you have any Suggestion by opening an Issue: https://github.com/WilliDieEnte/BetterBlocklist/issues
+Please contribute if you have any Suggestion by <a href="https://github.com/WilliDieEnte/BetterBlocklist/issues">opening an Issue</a>. 
 
 <a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
 <a href="https://willidieente.mit-license.org"><img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge"></a>
-<a href="https://ente.dev/"><img alt="♥" src="https://img.shields.io/badge/Made%20with%20%E2%99%A5%20in-Germany-success?style=for-the-badge"></a><br>
 
 ### Please note that the lists are not hosted on GitHub and therefore no activity is shown in this Repository, although they are getting updated constantly :)
 
@@ -15,8 +14,8 @@ If you find something in a List that you believe is a mistake or breaks function
 <br>These Blocklists are <b>compatible with all devices</b>, regardless of the OS, <b>speed up Page Loading</b>, let pages look cleaner, <b>remove most Ads</b>, <b>enhance Privacy</b>, <b>lower bandwidth, CPU, memory and battery usage</b>.
 
 # Usage
-<h4><a href="https://discourse.pi-hole.net/t/how-do-i-add-additional-block-lists-to-pi-hole/259">with Pi-Hole</a>, works very similar with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h4>
-<h4><a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">with uBlock Origin</a> (same goes for AdGuard and other Ad Blocking Addons)</h4>
+<h4>with <a href="https://discourse.pi-hole.net/t/how-do-i-add-additional-block-lists-to-pi-hole/259">Pi-Hole</a>, works almost identical with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h4>
+<h4>with <a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">uBlock Origin</a> (same goes for AdGuard and any similar Add-ons)</h4>
 <h4>On Android I recommend using <a href="https://f-droid.org/en/packages/org.adaway/">AdAway</a> and on iOS <a href="https://apps.apple.com/us/app/blokada/id1508341781">Blokada</a></h4>
 All lists are accessible using the following Scheme: 
  <br>- Domains only: https://ente.dev/api/blocklist/blocklist-name/
@@ -89,8 +88,6 @@ A great Way of finding fake Shops is just searching the following Keywords:
  - <a href="https://duckduckgo.com/?q=Everyday%2C+we+strive+to+deliver+high+quality+products+with+the+greatest+customer+experience+possible">Everyday, we strive to deliver high quality products with the greatest customer experience possible</a>
 
 If you have any questions about this project, open an issue and let's have a discussion! :3
-
-Repository for the <a href="https://ente.dev/api/blocklist/">ente.dev Blocklist</a> under the <a href="https://willidieente.mit-license.org/">MIT License</a>.
 
 # Disclaimer
 The lists contained here are provided as is, with no warranty as to their accuracy. It is your responsibility to whitelist/blacklist as you see fit for your needs and your environment. These lists are provided free of charge, are open for use by anyone, and are maintained by myself in my spare time. These lists are collections of domains I have come across, therefore these are not perfectly curated and vetted lists, however I try to do my best to avoid false positives and inaccuracies in all cases.
