@@ -3,7 +3,7 @@
 ! Description: Google-AMP, YouTube
 ! Homepage: https://github.com/KnightmareVIIVIIXC/BetterBlocklist
 ! License: MIT
-! Last modified: 2024-03-03T02:19:12.417Z
+! Last modified: 2024-03-04T19:43:02.350Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.23
 !
