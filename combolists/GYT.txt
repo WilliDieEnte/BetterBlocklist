@@ -3,9 +3,9 @@
 ! Description: Google-AMP, YouTube
 ! Homepage: https://github.com/KnightmareVIIVIIXC/BetterBlocklist
 ! License: MIT
-! Last modified: 2024-03-04T19:43:02.350Z
+! Last modified: 2024-04-12T07:29:29.933Z
 !
-! Compiled by @adguard/hostlist-compiler v1.0.23
+! Compiled by @adguard/hostlist-compiler v1.0.24
 !
 !
 ! Source name: Google-AMP
@@ -48,8 +48,6 @@
 ||amp.thestate.com^
 ||amp.thisisinsider.com^
 ||amp.usatoday.com^
-||block-test-amp.developerdan.com^
-||block-test.developerdan.com^
 ||cdn-social.janrain.com^
 !
 ! Source name: YouTube-ADS
