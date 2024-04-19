@@ -1,0 +1,512 @@
+4.8.106:
+- added: per-monitor DPI support;
+- changed: minor visual improvements in HostsMan Editor;
+- fixed: several bugs in HostsMan Editor;
+- fixed: minor bugs.
+
+4.7.105:
+- added: Update Manager dialog now has the option to open local update source files in editor;
+- added: "Dan Pollock's hosts file" source;
+- changed: more information is displayed when hosts file is in use by other applications (Vista and later);
+- changed: updated URLs for "Peter Lowe's AdServers List" and "Malware Domain List" sources;
+- fixed: control of DNS Client service is broken;
+- fixed: "Export Hosts" always exports to zip file under Vista and later;
+- fixed: minor bugs.
+
+4.6.103:
+- added: more settings to update sources;
+- added: Backup Manager is now accessible from HostsMan Editor (cannot restore backups);
+- changed: improved compatibility with Windows 10;
+- changed: minor UI improvements;
+- fixed: access violation when deleting multiple sources in source manager;
+- fixed: some dialogs in HostsMan Editor may not work under Windows Vista and later;
+- fixed: minor bugs.
+
+4.5.102:
+- added: import exclusion list by dropping file to the "Exclusion List" window;
+- changed: Exclusion List window is now resizable;
+- changed: "Import/Export..." menu item replaced with "Import Hosts..." and "Export Hosts..." items;
+- changed: other minor UI improvements;
+- fixed: minor bugs.
+
+4.4.101:
+- added: support for high contrast themes;
+- added: option to enable/disable automatic start for all users;
+- added: support for multiple file selection to Backup Manager;
+- changed: improved memory usage;
+- changed: if built-in decompressor can't decompress a specific zip file, 7z.dll is used instead (if available);
+- changed: improved exclusion list rule validation;
+- fixed: minor bugs.
+
+4.3.100:
+- fixed: regular expression rules in Exclusion List no longer work (broken in 4.3.99);
+- fixed: minor bugs.
+
+4.3.99:
+- changed: code refactoring;
+- fixed: backup manager does not show backup files created in v3.2.73 and prior;
+- fixed: possible access violation in the text file parser with files of certain sizes;
+- fixed: import of compressed hosts files in "Import/Export" wizard is broken;
+- fixed: index out of bounds error when trying to import from a compressed file that doesn't contain a hosts file;
+- fixed: minor bugs.
+
+4.3.98:
+- changed: improved compatibility with Windows 8.1 and Server 2012 R2;
+- changed: improved custom exception handler;
+- changed: minor UI tweaks;
+- fixed: access violation when manually adding a source that already exists;
+- fixed: crash or hang when loading PNG resources with certain system locales;
+- fixed: minor bugs.
+
+4.2.97:
+- added: 'Run as Administrator' button to main window when running in user mode;
+- added: option to hide "Hosts Updater" panel in main window (a.k.a. compact mode);
+- added: configurable global hotkeys (disabled by default);
+- changed: non-admin accounts are now allowed to view updater source properties;
+- changed: moved "DNS Client Service" panel from main window to its own dialog window;
+- changed: other minor UI tweaks;
+- fixed: local update sources are flagged as new by the updater even when they are not;
+- fixed: custom exception handler does not work;
+- fixed: minor bugs.
+
+4.1.96:
+- added: update source manager allows custom hosts file name inside compressed files;
+- added: multiple selection in Exclusion List and Update Source Manager;
+- changed: Editor now allows file loading to be interrupted;
+- changed: improved memory usage;
+- changed: removed dependency on gdiplus.dll;
+- changed: updated Editor's UI;
+- changed: other minor UI tweaks;
+- changed: replaced XML parser;
+- fixed: file loading locks Editor's window until complete;
+- fixed: preview in Backup Manager becomes unreliable when preview generation is interrupted;
+- fixed: certain errors were not fixed during hosts file update;
+- fixed: fails to load legacy exclusion list files;
+- fixed: minor bugs.
+
+4.0.95:
+- added: hide taskbar button when main window is minimized can now be disabled;
+- added: read-only support for 7z files if 7-Zip (32-bit) is installed;
+- changed: minor performance improvement;
+- fixed: minor bugs.
+
+4.0.94 RC2:
+- changed: small DPI scaling improvements;
+- fixed: unexpected access violations on some systems;
+- fixed: minor bugs.
+
+4.0.93 RC1:
+- changed: display more information in Source Manager;
+- changed: other minor improvements;
+- fixed: HostsMan may not detect new updates in local sources;
+- fixed: menu "File" > "Save" and save button do not show save file dialog for a new hosts;
+- fixed: access violation in editor when adding new entries to a new hosts;
+- fixed: minor bugs.
+
+4.0.92 Beta12:
+- added: workaround for issue specific to Windows Vista that prevents HostsMan from starting;
+- added: read support for 7-Zip archives (32-bit 7z.dll is required);
+- added: display warning when using some update features with DNS Client service enabled;
+- added: information about DNS Client service to the documentation;
+- changed: removed option to encrypt exported file in "Import/Export" wizard;
+- changed: improved DPI scaling;
+- changed: minor UI tweaks;
+- changed: improved error handling when downloading updates;
+- changed: "Notepad" as the optional hosts file editor replaced with "Default text editor";
+- changed: improved installer's upgrade method;
+- fixed: minor bugs.
+
+4.0.91 Beta11:
+- added: menu item to remove empty lines in HostsMan Editor;
+- changed: improved troubleshooting and bug reporting;
+- changed: improved update source management;
+- fixed: empty lines may be added to the hosts file when deleting duplicates;
+- fixed: potential access violation when adding a regular expression rule in an empty exclusion list;
+- fixed: several minor bugs.
+
+4.0.90 Beta10:
+- added: detection of common issues in "Troubleshooting Information";
+- changed: main window redesigned;
+- changed: more code refactoring and UI tweaks;
+- changed: improved DPI scaling;
+- changed: sources are no longer selected by default;
+- fixed: the installation of an update may fail if the corresponding cached file is not available;
+- fixed: several minor bugs.
+
+4.0.88 Beta9:
+- added: option to clear cache;
+- added: menu item to open hosts folder in Total Commander;
+- changed: minor UI tweaks;
+- fixed: fails to update hosts file with read-only attribute;
+- fixed: internal DNS resolver does not work after a first successful resolution.
+
+4.0.87 Beta8:
+- changed: improved support for multiple monitors;
+- changed: improved support for Windows 8 and Windows Server 2012;
+- fixed: overwrite mode does not work;
+- fixed: minor bugs.
+
+4.0.86 Beta7:
+- added: Auto-Update is available again (admin privileges still required);
+- changed: wildcard matching in Exclusion List;
+- changed: more code refactoring;
+- changed: several UI tweaks;
+- fixed: updater keeps reporting a new local update is available;
+- fixed: some dialogs fail to show with classic theme;
+- fixed: AV when deleting comments in HostsMan Editor;
+- fixed: sorting in Backup Manager;
+- fixed: minor bugs.
+
+4.0.85 Beta6:
+- added: "Malware Domain List" update source;
+- added: ability to change in which order updates are installed;
+- added: IDN support;
+- changed: more code refactoring and small UI tweaks;
+- changed: error detection improved;
+- changed: minor improvements when changing the DNS Client service startup type;
+- fixed: scan report doesn't show errors;
+- fixed: missing notification (tray) icon on some systems;
+- fixed: minor bugs.
+
+4.0.84 Beta5:
+- changed: minor UI tweaks;
+- fixed: application cannot be launched without a debug library;
+- fixed: cannot control DNS Client service status.
+
+4.0.83 Beta4:
+- changed: improved performance when rearranging hosts file content;
+- changed: improved error handling when checking for hosts file updates;
+- changed: improved feedback when using import wizard;
+- changed: more code refactoring;
+- changed: minor accessibility improvements;
+- changed: minor UI tweaks;
+- fixed: minor bugs.
+
+4.0.82 Beta3:
+- added: "Scan Hosts file" menu item is available again;
+- changed: more code refactoring;
+- changed: improved compatibility with Windows 8 and Windows Server "8"
+- changed: minor UI tweaks;
+- fixed: several import bugs;
+- fixed: "argument out of range" in systems that do not support IPv6;
+- fixed: minor bugs.
+
+4.0.81 Beta2:
+- added: built-in hosts file optimization;
+- changed: more code refactoring;
+- changed: improved validation of IP addresses and host names;
+- changed: minor UI improvements;
+- changed: removed HostsOptimizer;
+- fixed: changes made by "Mark update as not installed" and "Mark all updates as not installed" are not saved to disk;
+- fixed: download progress is not reported correctly;
+- fixed: restoration of update information fails to erase previous information;
+- fixed: minor bugs.
+
+4.0.80 Beta1:
+- changed: Windows versions prior to XP SP2 no longer supported;
+- added: HTTPS support;
+- added: option to automatically flush DNS cache when hosts file is imported, updated or a backup is restored (only if DNS Client service is running);
+- added: "Cameleon" update source;
+- added: ability to import and export list of update sources;
+- changed: major code refactoring;
+- changed: hosts file updater rewritten;
+- changed: removed AutoUpdate;
+- changed: backups created by Backup Manager are now compressed and include updater information;
+- changed: removed ability to create encrypted backups;
+- changed: improved unicode support;
+- changed: removed "ZipDll.dll" and "UnzDll.Dll" libraries;
+- changed: updated URLs for "MVPS Hosts" and all "hpHosts" sources;
+- changed: improved "Find Duplicates" algorithm;
+- changed: removed HostsServer (it's now a separate product);
+- changed: updated HostsOptimizer to version 0.5;
+- changed: minor UI improvements done;
+- fixed: several bugs and memory leaks.
+
+3.2.73:
+- added: Windows Server 2008 R2 support;
+- added: hosts file optimization (HostsOptimizer);
+- changed: HTTP connect and read timeout values to 10 seconds;
+- changed: URLs for 'hpHosts' and 'hpHosts (Partial)';
+- changed: HTTP maximum redirections value to 3;
+- changed: improved scheduling of automatic updates.
+
+3.2.72:
+- fixed: window position when multiple monitors are present.
+
+3.2.71 Beta7:
+- added: Windows 7 support;
+- added: two update sources ("hpHosts (Partial)" and "hpHosts (Ad and tracking servers only)");
+- changed: comments, possible hijacks and disabled entries are drawn differently in HostsMan Editor;
+- fixed: cannot import some hosts files;
+- fixed: DPI scaling of some visual elements;
+- fixed: minor bugs.
+
+3.2.70 Beta6:
+- fixed: Auto-Update may check for updates every 60 seconds under certain conditions;
+- fixed: may not run in certain Win98SE systems;
+- fixed: minor bugs.
+
+3.2.69 Beta5:
+- changed: multi-threading library improved;
+- changed: internal DNS resolver improved;
+- removed: "Mike's Ad Blocking Hosts" source;
+- fixed: some import options do not work;
+- fixed: minor bugs.
+
+3.2.68 Beta4:
+- changed: user-agent to allow access to hpHosts main server.
+
+3.2.67 Beta3:
+- added: new multi-threading library (experimental and implementation incomplete).
+- removed: -u command-line argument;
+- changed: increased Auto-Update interval to 24 hours.
+
+3.2.66 Beta2:
+- added: HostsMan now preserves hosts file attributes;
+- added: Auto-Update can check for updates in restricted accounts;
+- added: option to supress confirmation dialog when new updates are available;
+- added: command-line parameter to restore original Windows hosts file;
+- added: HostsMan can now open hosts files encoded in UTF-8, UTF-16LE and UTF-16BE;
+- added: internal DNS resolver (experimental);
+- added: HostsServer now supports multiple IP-Port bindings;
+- added: filters to HostsMan Editor;
+- changed: 'Additional Information' improved;
+- changed: default value of http client's buffer size to 1024;
+- changed: improved bug reporting;
+- changed: minor interface improvements;
+- fixed: minor bugs.
+
+3.2.61 Beta1:
+- added: unicode support to HostsServer;
+- added: HostsMan is terminated on heap corruption (Vista or higher);
+- added: search to HostsServer Log Viewer;
+- changed: improved OS identification;
+- changed: HostsMan no longer needs to be restarted to determine new hosts file location, when DatabasePath registry value is changed;
+- fixed: runtime error 216 on some systems;
+- fixed: program may fail to check for correct file access permissions;
+- fixed: HostsMan may flag local source updates as new by mistake;
+- fixed: HostsServer Log Viewer's thumbnail and Flip 3D preview not available in Windows Vista.
+
+3.1.55:
+- code cleanup.
+
+3.1.54 RC2:
+- fixed: minor bugs.
+
+3.1.53 RC1:
+- changed: find duplicates improved;
+- fixed: duplicate localhost entries aren't deleted.
+
+3.1.52 Beta4:
+- added: labels to toolbar buttons in HostsMan Editor;
+- changed: "Add Entry" and "Add Comment" windows replaced by a panel inside the HostsMan Editor window;
+- fixed: HostsMan cannot import or update hosts from text files;
+- fixed: some UI controls may disappear when using Control or Alt keys in Windows Vista;
+- fixed: minor bugs.
+
+3.1.51 Beta3:
+- added: option to change HostsServer's HTTP status code;
+- added: option to not show message after auto-update;
+- changed: structure of .ehf files;
+- changed: "Import/Export" wizard requires password to create encrypted files;
+- changed: custom hand cursor replaced by Windows hand cursor;
+- fixed: range check error may be thrown when determining user account type;
+- fixed: some windows appear behind the main window when they lose focus;
+- fixed: minor bugs.
+
+3.1.50 Beta2:
+- added: partial implementation of a new configuration file format;
+- added: 'Scan Hosts file' allows to create a basic hosts file if the current one is empty or missing;
+- added: window size of HostsServer Log Viewer is now saved;
+- changed: more dialogs were replaced by TaskDialog (Vista only);
+- changed: moved some settings to prefs.cfg;
+- changed: a few GUI adjustments were made;
+- fixed: HostsMan doesn't accept URL's with tilde (~);
+- fixed: cannot close "Update" window when another application is using hosts file;
+- fixed: "Delete Comments" also deletes "::1 localhost" entry;
+- fixed: "::1 localhost" entry is not included when restoring the original hosts file in Vista.
+
+3.1.49 Beta:
+- added: option to hide HostsServer icon in notification area;
+- added: HostsServer's 16-colors icon to notification area for Windows 98/2000;
+- added: original update sources can now be hidden;
+- changed: IPv6 support improved;
+- changed: most options are disabled while Notepad is running when launched from HostsMan;
+- changed: "Additional Information" window is now resizable;
+- changed: a few GUI adjustments were made;
+- fixed: memory leak when expanding certain environment variables;
+- fixed: "Unable to access the selective drive" exception;
+- fixed: external editor setting always resets to Notepad;
+- fixed: minor bugs.
+
+3.0.45:
+- fixed: Backup Manager displays wrong date for newly created backups;
+- fixed: HostsMan and HostsServer show two taskbar buttons for each main window under Windows 9x;
+- fixed: a small window is visible behind taskbar in Windows Vista;
+- fixed: fails to create exclusion.dat file;
+- fixed: HostsServer throws an error message on Windows shutdown under certain conditions.
+
+3.0.44:
+- changed: executables are a bit smaller;
+- changed: backups in Backup Manager are sorted by date;
+- changed: some GUI adjustments were made;
+- fixed: HostsMan doesn't save some settings when certain configuration files don't exist;
+- fixed: HostsServer Control Panel sometimes appears empty in Vista;
+- fixed: update engine displays wrong date for Peter Lowe's hosts update;
+- fixed: DPI scaling of certain visual elements;
+- fixed: minor bugs.
+
+3.0.42:
+- changed: GetVolumeInformation is now used to determine file system;
+- fixed: HostsMan doesn't save settings when configuration file does not exist;
+- fixed: some settings are hidden when configuration file does not exist;
+- fixed: behavior of HostsServer window on Vista;
+- fixed: checking for Peter Lowe's hosts update fails;
+- fixed: minor bugs.
+
+3.0.41:
+- fixed: HostsMan freezes and prevents Windows shutting properly when Auto-Update is enabled;
+- fixed: HostsServer prevents Windows shutting down properly when close button minimizes window to notification area.
+
+3.0.40:
+- added: tray icon to HostsServer;
+- added: "Peter Lowe's AdServers List" to update list;
+- added: sort by column in HostsServer Log Viewer;
+- added: "Run as Administrator" option when running with limited privileges under Vista;
+- added: NX flag;
+- added: ASLR flag (Vista only);
+- added: save Editor window size and position;
+- added: support for local sources to update engine;
+- changed: improved memory usage;
+- changed: detection of user privileges;
+- changed: update engine improved;
+- changed: a few GUI adjustments were made;
+- changed: HostsServer and the Control Panel run in the same process now;
+- changed: improved compatibility with Windows Vista;
+- changed: removed Windows error report dialog when program crashes;
+- changed: set MVPS Hosts the default update;
+- changed: detection of duplicates improved;
+- changed: Editor can now open other hosts files;
+- changed: logging "referer" is now optional in HostsServer;
+- changed: installer is now based on Windows Installer;
+- fixed: program crashes/freezes on exit when Auto-Update is enabled;
+- fixed: deleting an update site causes an "index out of bound" error;
+- fixed: HostsMan reports new updates even when there are no new updates;
+- fixed: HostsMan fails to recognize text files with certain characters;
+- fixed: all command-line parameters are now working;
+- fixed: other minor bugs.
+
+3.0.0.25 Beta1:
+- added: Auto-Updates;
+- added: editable update list;
+- added: option to mark updates as not installed;
+- added: support for proxy basic authentication;
+- added: option to restore original Windows hosts file;
+- added: 'Additional Information' window;
+- added: IPv6 support (hosts file);
+- added: comment lines support;
+- added: fix hijack of hosts file ('databasepath' registry value);
+- added: support for regular expressions to the Exclusion List;
+- changed: 90% of the code rewritten;
+- changed: memory manager replaced;
+- changed: hosts lock removed;
+- changed: interface updated;
+- changed: exclusion list improved;
+- changed: editor improved (rewritten from scratch);
+- changed: 'Block Adverts' removed from update list;
+- changed: HostsServer replaces built-in HTTP Server;
+- fixed: some encrypted backups are not created correctly;
+- fixed: several bugs.
+
+* HostsMan Editor:
+- added: drag'n'drop support;
+- added: support for multiple selections;
+- added: support for multiple hostnames in one single entry;
+- added: support for regular expressions to the search function;
+- added: access to the 'Exclusion List' via main menu;
+- changed: localhost entry is now visible;
+- changed: comment boxes display comment signs instead of checkmarks;
+- changed: possible hijacks are flagged with a warning sign;
+- fixed: several bugs.
+
+* HostsServer (former built-in HTTP Server):
+- added: log to file;
+- added: possibility to display a image instead of a message when sites are blocked;
+- changed: has its own executable;
+- changed: message displayed when sites are blocked is shorter (less distracting);
+- fixed: several bugs.
+
+2.1:
+- performance improved;
+- Hosts online update improved;
+- added exclusion list;
+- added command-line parameters;
+- fixed bug that prevented HostsMan from working properly with certain regional settings;
+- fixed window size problem in displays with higher dpi;
+- minor bugs fixed.
+
+2.0.1:
+- converted hosts filename to all caps;
+- fixed bug in the import function when merging two hosts file;
+- fixed bug in 'Check for updates';
+- minor bugs fixed.
+
+2.0:
+- 'Lock Hosts' feature improved;
+- added 2 new update sources (hpHosts and Block Adverts);
+- online update now works behind proxy;
+- added option to bypass proxy server for local addresses;
+- added backup manager;
+- added local HTTP server to speed up surfing when hostnames are blocked by hosts file;
+- 'Add Host' function in HostsMan Editor improved;
+- search in HostsMan Editor improved;
+- fixed bug in 'Scan Hosts file' that prevented fixing possible hijacks when no errors were found;
+- fixed bug that prevented program from saving configuration on Windows logoff/reboot/shutdown;
+- fixed bug in the import function when merging two hosts files;
+- several other bugs fixed.
+
+2.0 Beta:
+- code optimized;
+- added HostsMan Editor;
+- added Hosts online update;
+- added option to import and merge two hosts files;
+- added tool to resolve host names;
+- added detection of possible hijacks;
+- error detection improved;
+- user can now decide what to do when errors and possible hijacks are found in Hosts file;
+- improved 'Find Duplicates' window report;
+- automatically sets Hosts read-only, hidden and system attributes on program exit;
+- re-added option to maintain main window on top;
+- small changes in UI;
+- several bugs fixed.
+
+1.2:
+- code improved;
+- added 'Find Duplicates';
+- added option to open editor not maximized;
+- added option to minimize program to system tray when close button is pressed;
+- small changes in program's interface;
+- several bugs fixed.
+
+1.1.1:
+- bug in the option to use a different editor fixed (thanks to grog);
+- program now saves configuration on Windows logoff/reboot/shutdown (thanks to JC);
+- user can now select additional commands to appear in the tray icon menu;
+- small adjustments in the program's interface.
+
+1.1:
+- lock Hosts file function rewritten;
+- bug in the import function fixed;
+- removed ballon tooltips;
+- added option to disable DNS Client warnings under General tab (Administrators only);
+- added option to run automatically on Windows startup;
+- location of program configuration file changed;
+- minor bugs fixed.
+
+1.0.1:
+- application name changed to 'HostsMan';
+- buttons in main form reflect status of hosts file (enabled/disabled, locked/unlocked);
+- minor bugs fixed.
+
+1.0:
+- first public release of 'HostsManager'.
