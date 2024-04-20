@@ -54,7 +54,6 @@ Please open an Issue if you find any false flag or have any Domain that should b
 # Awesome Projects
 Thanks to the following, great Projects that are partially included in BetterBlocklist adding to my own Research (and maybe even yours, I would appreciate your Contribution :)
 - https://blocklist-tools.developerdan.com/blocklists
-- https://github.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists
 - https://prism-break.org/
 - https://github.com/gorhill/uBlock
 - https://adblockplus.org/
@@ -63,6 +62,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://adaway.org/
 - https://disconnect.me/
 - [https://firebog.net/](https://github.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists)
+- https://github.com/KnightmareVIIVIIXC/AIO-Firebog-Blocklists
 - https://hmirror.molinero.dev/
 - https://coveryourtracks.eff.org/
 
