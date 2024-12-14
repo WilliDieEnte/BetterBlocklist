@@ -2,14 +2,14 @@
 <b>Better Blocklist</b> is a collection of powerful and customizable DNS Blocklists against Ads, Tracking and privacy harming Services.
 Updated regularly with support for Pi-Hole, AdGuard(-Home), uBlock Origin and host Files.
 
-Please contribute if you have any suggestion by <a href="https://github.com/WilliDieEnte/BetterBlocklist/issues">opening an Issue</a>. 
+Please contribute if you have any suggestions by <a href="https://github.com/WilliDieEnte/BetterBlocklist/issues">opening an Issue</a>. 
 
 > [!IMPORTANT]
 > ### Please note that the lists are not hosted on GitHub and therefore no activity is shown in this Repository, although they are getting updated daily :)
 
 # Details
 A collection of Blocklists for various Purposes.
-<br>In comparison to other lists which are all or nothing, you can exactly choose what you want to block.
+<br>In comparison to other lists, which are all or nothing, you can exactly choose what you want to block.
 <br>If you find something in a list that you believe is a mistake or breaks functionality, please contact me.
 <br>The same goes for unblocked subdomains of blocked root domains, please let me know, so I can add it properly.
 <br>These Blocklists are <b>compatible with all devices</b>, regardless of the OS, <b>speed up Page Loading</b>, let pages look cleaner, <b>remove most Ads</b>, <b>enhance Privacy</b>, <b>lower bandwidth, CPU, memory and battery usage</b>.
@@ -18,11 +18,11 @@ A collection of Blocklists for various Purposes.
 <a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
 
 > [!CAUTION]
-> <h3>Google has already killed Manifext V2 support in Chrome and all browsers using its engine!
-> Make sure to switch to any non chromium browser like <a href="https://www.mozilla.org/firefox/new/">Firefox</a> /  <a href="https://librewolf.net/">LibreWolf</a> /  <a href="https://floorp.app/en">Floorp</a> /  <a href="https://www.waterfox.net/">WaterFox</a> or similar!</h3>
-> <h4>Opera(GX), Vivaldi, Arc, Microsoft Edge and other chromium forks will not suffice!</h4> 
+> <h3>Google has already killed Manifest v2 support in Chrome and all browsers using its engine!
+> Make sure to switch to any non Chromium browser like <a href="https://www.mozilla.org/firefox/new/">Firefox</a> /  <a href="https://librewolf.net/">LibreWolf</a> /  <a href="https://floorp.app/en">Floorp</a> /  <a href="https://www.waterfox.net/">WaterFox</a> or similar!</h3>
+> <h4>Opera(GX), Vivaldi, Arc, Microsoft Edge and other Chromium forks will not suffice!</h4> 
 [^1]
-[^1]: Exception for Brave as they are still actively trying to make v2 work and have their own AdBlocker.
+[^1]: Exception for Brave, as they are still actively trying to make v2 work and have their own AdBlocker.
 
 # Usage
 <details>
@@ -37,24 +37,24 @@ A collection of Blocklists for various Purposes.
 </details>
 
 > [!TIP]
-> <h4><a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution">I very much recommend you to use unbound in addition to Pi-Hole for better Privacy</a></h4>
+> <h4>I very much recommend you to use <a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution">unbound in addition to Pi-Hole</a> for better Privacy.</h4>
 
 <details>
  <summary><h3>with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h3></summary>
 
- 1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard. They'll work perfectly as intended, I just don't yet provide them in AdGuards own formatting.
- 2. Add the URL to you AdGuard's block list
+ 1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard. They'll work perfectly as intended, I just don't yet provide them in AdGuard's own formatting.
+ 2. Add the URL to your AdGuard's block list
     <br>(**Filters** -> **DNS Blocklists** -> **Add blocklist** -> **Add a custom list** -> **Enter any Name** -> **Paste copied URL**)
  3. List is enabled automatically and will be used to block requests.
 </details>
 
 <details>
- <summary><h3>with <a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">uBlock Origin</a> (similar process for AdGuard and compareable Add-ons)</h3>
+ <summary><h3>with <a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">uBlock Origin</a> (similar process for AdGuard and comparable Add-ons)</h3>
  </summary>
  
  1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard.
- 2. Click on the **uBlock icon** at the top right, or if it isn't there click on your Extensions Menu and look for "uBlock Origin". (Potentially top right menu and then Extensions if you've disabled the quick icon)
- 3. If you've found and clicked on it, a menu will appear. By default you should see **two gears** at the **bottom right** of the menu, click on them. In case you don't see any gears, click "More ↓" until they appear.
+ 2. Click on the **uBlock icon** at the top right, or if it isn't there, click on your Extensions Menu and look for "uBlock Origin". (Potentially top right menu and then Extensions if you've disabled the quick icon)
+ 3. If you've found and clicked on it, a menu will appear. By default, you should see **two gears** at the **bottom right** of the menu; click on them. In case you don't see any gears, click "More ↓" until they appear.
  5. A new tab with the uBlock Dashboard will open.
  6. Click on **Filter Lists** in the top bar.
  7. (if applicable) scroll down.
@@ -67,7 +67,7 @@ A collection of Blocklists for various Purposes.
 
 > [!NOTE]
 > <h4>Keep in mind that <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a> supports extensions like <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock</a>.</h3>
-> <h4>Alternatively projects like <a href="https://github.com/uazo/cromite">Cromite</a> are awesome as well.</h4>
+> <h4>Alternatively, projects like <a href="https://github.com/uazo/cromite">Cromite</a> are awesome as well.</h4>
 
 <details> 
  <summary><h3>Host files (Directly on system)</h3></summary>
@@ -81,14 +81,14 @@ A collection of Blocklists for various Purposes.
 1. Locate your **O**perating **S**ystem and open up the file, specified at the path above.
 2. Open up any list from the tables below in the **hosts** format.
 3. Manually copy the entries you'd like to add into the file and save.
-   <br>**Windows users, be ware as to keep the size of the file under 1MB!!!**
-   <br>Otherwise no lookups will be made at all and you won't be able to connect to the internet!
+   <br>**Windows users, beware as to keep the size of the file under 1MB!!!**
+   <br>Otherwise, no lookups will be made at all, and you won't be able to connect to the internet!
 </details>
 
 > [!WARNING]
 > <b>Do not use Host files larger than 1MB on Windows directly, Windows can't handle that and won't do any lookups anymore for some obscure reason. Rather use <a href="https://pi-hole.net/">Pi-Hole</a> or <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></b>
 
- <h3>On Android I recommend using <a href="https://f-droid.org/en/packages/org.adaway/">AdAway</a> and on iOS <a href="https://apps.apple.com/us/app/blokada/id1508341781">Blokada</a></h3>
+ <h3>On Android I recommend using <a href="https://f-droid.org/en/packages/org.adaway/">AdAway</a> and on iOS <a href="https://apps.apple.com/us/app/blokada/id1508341781">Blokada</a>.</h3>
  <br>
  
 # Lists
@@ -97,8 +97,8 @@ A collection of Blocklists for various Purposes.
 | Advertising | Advertisement servers / sites | <a href="https://ente.dev/api/blocklist/advertising">domains</a>, <a href="https://ente.dev/api/blocklist/advertising-hosts">hosts</a> |
 | Google-AMP | Blocks <a href="https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/">Google AMP</a> pages | <a href="https://ente.dev/api/blocklist/google-amp">domains</a>, <a href="https://ente.dev/api/blocklist/google-amp-hosts">hosts</a> |
 | Suspicious | Includes fraud, scams, malware, phishing, etc. | <a href="https://ente.dev/api/blocklist/suspicious">domains</a>, <a href="https://ente.dev/api/blocklist/suspicious-hosts">hosts</a> |
-| Tracking | Sites and services dedicated to gather info about you | <a href="https://ente.dev/api/blocklist/tracking">domains</a>, <a href="https://ente.dev/api/blocklist/tracking-hosts">hosts</a> |
-| TV | Smart TV & Fire TV telemetery and ads | <a href="https://ente.dev/api/blocklist/tv">domains</a>, <a href="https://ente.dev/api/blocklist/tv-hosts">hosts</a> |
+| Tracking | Sites and services dedicated to gathering info about you | <a href="https://ente.dev/api/blocklist/tracking">domains</a>, <a href="https://ente.dev/api/blocklist/tracking-hosts">hosts</a> |
+| TV | Smart TV & Fire TV telemetry and ads | <a href="https://ente.dev/api/blocklist/tv">domains</a>, <a href="https://ente.dev/api/blocklist/tv-hosts">hosts</a> |
 | TikTok | Blocks TikTok, formerly known as Musically | <a href="https://ente.dev/api/blocklist/tiktok">domains</a>, <a href="https://ente.dev/api/blocklist/tiktok-hosts">hosts</a> |
 | YouTube-Ads | Blocks some[^2] ads without blocking actual YouTube videos | <a href="https://ente.dev/api/blocklist/youtube-advertising">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-hosts">hosts</a> |
 
@@ -142,7 +142,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://hmirror.molinero.dev/
 - https://coveryourtracks.eff.org/
 
-# ToDo
+# To-Do
 - [ ] https://github.com/WilliDieEnte/BetterBlocklist/issues/6
 - [ ] Recode and open-source of the crawler 
 
@@ -151,7 +151,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 
 - <a href="https://www.makeuseof.com/tag/stop-using-ccleaner-windows/"><b>Why should I avoid CCleaner?</b></a>
 
-- The <a href="https://ente.dev">ente.dev</a> Domain uses Cloudflare <a href="https://www.cloudflare.com/products/argo-smart-routing/">Argo Smart Routing</a> and <a href="https://www.cloudflare.com/cdn/">CDN</a> in combination with a _decent_ Server for the fastest delivery possible globally, so you shouldn't experience much delay in pulling updates from these lists.
+- The <a href="https://ente.dev">ente.dev</a> Domain uses Cloudflare <a href="https://www.cloudflare.com/products/argo-smart-routing/">Argo Smart Routing</a>, <a href="https://www.cloudflare.com/cdn/">CDN</a> and <a href="https://developers.cloudflare.com/cache/how-to/tiered-cache/">Tiered Cache</a> in combination with multiple servers at different locations, managed via load balancing for the fastest delivery possible globally, so you shouldn't experience much delay in pulling updates from these lists.
 
 A great way of finding fake shops is just searching the following keywords:
  - <a href="https://duckduckgo.com/?q=Kindly+keep+in+mind+that+we+produce+on+demand.+We+do+not+stock+items">Kindly keep in mind that we produce on demand. We do not stock items</a>
@@ -161,4 +161,4 @@ A great way of finding fake shops is just searching the following keywords:
 If you have any questions about this project, open an issue and let's have a discussion! :3
 
 # Disclaimer
-The lists contained here are provided as is, with no warranty as to their accuracy. It is your responsibility to whitelist/blacklist as you see fit for your needs and your environment. These lists are provided free of charge, are open for use by anyone, and are maintained by myself in my spare time. These lists are collections of domains I have come across, therefore these are not perfectly curated and vetted lists, however I try to do my best to avoid false positives and inaccuracies in all cases.
+The lists contained here are provided as is, with no warranty as to their accuracy. It is your responsibility to whitelist/blacklist as you see fit for your needs and your environment. These lists are provided free of charge, are open for use by anyone, and are maintained by myself in my spare time. These lists are collections of domains I have come across; therefore, these are not perfectly curated and vetted lists; however, I try to do my best to avoid false positives and inaccuracies in all cases.
