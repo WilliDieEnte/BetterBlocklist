@@ -1,55 +1,132 @@
 # BetterBlocklist
-<b>Better Blocklist</b> is a collection of powerful and customizable DNS Blocklists against Ads, Tracking and privacy harming Services. Updated regularly with support for Pi-Hole, AdGuard(-Home), uBlock Origin and host Files.
+<b>Better Blocklist</b> is a collection of powerful and customizable DNS Blocklists against Ads, Tracking and privacy harming Services.
+Updated regularly with support for Pi-Hole, AdGuard(-Home), uBlock Origin and host Files.
 
-Please contribute if you have any Suggestion by <a href="https://github.com/WilliDieEnte/BetterBlocklist/issues">opening an Issue</a>. 
+Please contribute if you have any suggestion by <a href="https://github.com/WilliDieEnte/BetterBlocklist/issues">opening an Issue</a>. 
 
-<a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
-<a href="https://willidieente.mit-license.org"><img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge"></a>
-
-### Please note that the lists are not hosted on GitHub and therefore no activity is shown in this Repository, although they are getting updated constantly :)
+> [!IMPORTANT]
+> ### Please note that the lists are not hosted on GitHub and therefore no activity is shown in this Repository, although they are getting updated daily :)
 
 # Details
-A collection of Blocklists for various Purposes. In comparison to other Lists which are all or nothing, you can exactly choose what you want to block.
-If you find something in a List that you believe is a mistake or breaks functionality, please contact me. The same goes for unblocked Subdomains of blocked root Domains, please let me know, so I can add it properly.
+A collection of Blocklists for various Purposes.
+<br>In comparison to other lists which are all or nothing, you can exactly choose what you want to block.
+<br>If you find something in a list that you believe is a mistake or breaks functionality, please contact me.
+<br>The same goes for unblocked subdomains of blocked root domains, please let me know, so I can add it properly.
 <br>These Blocklists are <b>compatible with all devices</b>, regardless of the OS, <b>speed up Page Loading</b>, let pages look cleaner, <b>remove most Ads</b>, <b>enhance Privacy</b>, <b>lower bandwidth, CPU, memory and battery usage</b>.
 
+<a href="https://willidieente.mit-license.org"><img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge"></a>
+<a href="https://ente.dev/api/blocklist/"><img alt="Maintained" src="https://img.shields.io/badge/Maintained-yes-brightgreen?style=for-the-badge"></a>
+
+> [!CAUTION]
+> <h3>Google has already killed Manifext V2 support in Chrome and all browsers using its engine!
+> Make sure to switch to any non chromium browser like <a href="https://www.mozilla.org/firefox/new/">Firefox</a> /  <a href="https://librewolf.net/">LibreWolf</a> /  <a href="https://floorp.app/en">Floorp</a> /  <a href="https://www.waterfox.net/">WaterFox</a> or similar!</h3>
+> <h4>Opera(GX), Vivaldi, Arc, Microsoft Edge and other chromium forks will not suffice!</h4> 
+[^1]
+[^1]: Exception for Brave as they are still actively trying to make v2 work and have their own AdBlocker.
+
 # Usage
-<h4>with <a href="https://discourse.pi-hole.net/t/how-do-i-add-additional-block-lists-to-pi-hole/259">Pi-Hole</a>, works almost identical with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h4>
-<h4>with <a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">uBlock Origin</a> (same goes for AdGuard and any similar Add-ons)</h4>
-<h4>On Android I recommend using <a href="https://f-droid.org/en/packages/org.adaway/">AdAway</a> and on iOS <a href="https://apps.apple.com/us/app/blokada/id1508341781">Blokada</a></h4>
-All lists are accessible using the following Scheme: 
- <br>- Domains only: https://ente.dev/api/blocklist/blocklist-name/
- <br>- Host Files: https://ente.dev/api/blocklist/blocklist-name-hosts/
- <br>Example: https://ente.dev/api/blocklist/suspicious or https://ente.dev/api/blocklist/tracking-hosts
+<details>
+ <summary><h3>with <a href="https://discourse.pi-hole.net/t/how-do-i-add-additional-block-lists-to-pi-hole/259">Pi-Hole</a></h3></summary>
+ 
+  1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard. Pi-Hole will also work with hosts, but will remove the 0.0.0.0 entries when preparing them for the FTL, therefore taking longer to update and wasting resources.
+  2. Add the URL to your Pi-hole's blocklists
+     <br>(**Group Management** -> **Adlists** -> Paste the copied URL into the **"Address" field**; optionally add a comment -> finally **Add** it)
+  4. Update Gravity, to apply it instantly
+     <br>(**Tools** -> **Update Gravity** -> Click **Update**)
+  <br><sub>Instructions for Pi-Hole v5, v6 isn't out yet at time of writing, but may slightly differ</sub>
+</details>
 
-<br>If you need further help, don't hesitate to contact me!
+> [!TIP]
+> <h4><a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution">I very much recommend you to use unbound in addition to Pi-Hole for better Privacy</a></h4>
 
+<details>
+ <summary><h3>with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h3></summary>
+
+ 1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard. They'll work perfectly as intended, I just don't yet provide them in AdGuards own formatting.
+ 2. Add the URL to you AdGuard's block list
+    <br>(**Filters** -> **DNS Blocklists** -> **Add blocklist** -> **Add a custom list** -> **Enter any Name** -> **Paste copied URL**)
+ 3. List is enabled automatically and will be used to block requests.
+</details>
+
+<details>
+ <summary><h3>with <a href="https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web">uBlock Origin</a> (similar process for AdGuard and compareable Add-ons)</h3>
+ </summary>
+ 
+ 1. Use any List you like from the tables below in the **domains** format and **copy** its link to your clipboard.
+ 2. Click on the **uBlock icon** at the top right, or if it isn't there click on your Extensions Menu and look for "uBlock Origin". (Potentially top right menu and then Extensions if you've disabled the quick icon)
+ 3. If you've found and clicked on it, a menu will appear. By default you should see **two gears** at the **bottom right** of the menu, click on them. In case you don't see any gears, click "More ↓" until they appear.
+ 5. A new tab with the uBlock Dashboard will open.
+ 6. Click on **Filter Lists** in the top bar.
+ 7. (if applicable) scroll down.
+ 8. Click on **Import...**
+ 9. **Paste** the URL you copied and repeat with as many as you wish.
+ 10. Click **Apply changes** at the top left.
+ 11. Done, it'll automatically update now and in the background.
+ 
+</details>
+
+> [!NOTE]
+> <h4>Keep in mind that <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a> supports extensions like <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock</a>.</h3>
+> <h4>Alternatively projects like <a href="https://github.com/uazo/cromite">Cromite</a> are awesome as well.</h4>
+
+<details> 
+ <summary><h3>Host files (Directly on system)</h3></summary>
+ <h4>Host file locations:</h4>
+ 
+ - **Linux**, Unix and Mac OS X -> ``/etc/hosts``
+ - Windows XP, Vista, 7, 8, **10 and 11** -> ``C:\WINDOWS\system32\drivers\etc\hosts``
+ - Windows 2000 -> ``C:\WINNT\system32\drivers\etc\hosts``
+ - Windows 98/ME -> ``C:\WINDOWS\hosts``
+
+1. Locate your **O**perating **S**ystem and open up the file, specified at the path above.
+2. Open up any list from the tables below in the **hosts** format.
+3. Manually copy the entries you'd like to add into the file and save.
+   <br>**Windows users, be ware as to keep the size of the file under 1MB!!!**
+   <br>Otherwise no lookups will be made at all and you won't be able to connect to the internet!
+</details>
+
+> [!WARNING]
+> <b>Do not use Host files larger than 1MB on Windows directly, Windows can't handle that and won't do any lookups anymore for some obscure reason. Rather use <a href="https://pi-hole.net/">Pi-Hole</a> or <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></b>
+
+ <h3>On Android I recommend using <a href="https://f-droid.org/en/packages/org.adaway/">AdAway</a> and on iOS <a href="https://apps.apple.com/us/app/blokada/id1508341781">Blokada</a></h3>
+ <br>
+ 
 # Lists
 | List | Description | Link |
 |--| -- |--|
-| Advertising | Advertisement Servers / Sites | <a href="https://ente.dev/api/blocklist/advertising">domains</a>, <a href="https://ente.dev/api/blocklist/advertising-hosts">hosts</a> |
-| Google-AMP | Blocks <a href="https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/">Google AMP</a> Pages | <a href="https://ente.dev/api/blocklist/google-amp">domains</a>, <a href="https://ente.dev/api/blocklist/google-amp-hosts">hosts</a> |
-| Suspicious | Includes Fraud, Scams, Malware, Phishing, etc. | <a href="https://ente.dev/api/blocklist/suspicious">domains</a>, <a href="https://ente.dev/api/blocklist/suspicious-hosts">hosts</a> |
-| Tracking | Sites and Serviced dedicated to gather info about you | <a href="https://ente.dev/api/blocklist/tracking">domains</a>, <a href="https://ente.dev/api/blocklist/tracking-hosts">hosts</a> |
-| TV | Smart TV & Fire TV Telemetery and Ads | <a href="https://ente.dev/api/blocklist/tv">domains</a>, <a href="https://ente.dev/api/blocklist/tv-hosts">hosts</a> |
+| Advertising | Advertisement servers / sites | <a href="https://ente.dev/api/blocklist/advertising">domains</a>, <a href="https://ente.dev/api/blocklist/advertising-hosts">hosts</a> |
+| Google-AMP | Blocks <a href="https://www.theregister.com/2017/05/19/open_source_insider_google_amp_bad_bad_bad/">Google AMP</a> pages | <a href="https://ente.dev/api/blocklist/google-amp">domains</a>, <a href="https://ente.dev/api/blocklist/google-amp-hosts">hosts</a> |
+| Suspicious | Includes fraud, scams, malware, phishing, etc. | <a href="https://ente.dev/api/blocklist/suspicious">domains</a>, <a href="https://ente.dev/api/blocklist/suspicious-hosts">hosts</a> |
+| Tracking | Sites and services dedicated to gather info about you | <a href="https://ente.dev/api/blocklist/tracking">domains</a>, <a href="https://ente.dev/api/blocklist/tracking-hosts">hosts</a> |
+| TV | Smart TV & Fire TV telemetery and ads | <a href="https://ente.dev/api/blocklist/tv">domains</a>, <a href="https://ente.dev/api/blocklist/tv-hosts">hosts</a> |
 | TikTok | Blocks TikTok, formerly known as Musically | <a href="https://ente.dev/api/blocklist/tiktok">domains</a>, <a href="https://ente.dev/api/blocklist/tiktok-hosts">hosts</a> |
-| YouTube-ADS | Blocks most Ads without blocking actual YouTube Videos | <a href="https://ente.dev/api/blocklist/youtube-advertising">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-hosts">hosts</a> |
+| YouTube-Ads | Blocks some[^2] ads without blocking actual YouTube videos | <a href="https://ente.dev/api/blocklist/youtube-advertising">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-hosts">hosts</a> |
+
+[^2]: This is pretty whack-a-mole and will never be perfect, especially with YouTube now testing server side inserted Advertisements, which make this impossible :/
+
+> [!TIP]
+> All lists are accessible using the following Scheme: 
+> <br>- Domains only: https://ente.dev/api/blocklist/blocklist-name/
+> <br>- Host Files: https://ente.dev/api/blocklist/blocklist-name-hosts/
+> <br>Example: https://ente.dev/api/blocklist/suspicious or https://ente.dev/api/blocklist/tracking-hosts
+>
+> <br>If you need further help, don't hesitate to contact me!
 
 # Experimental Lists
 | List | Description | Link |
 |--| -- |--|
 | Amazon | Tries to block Amazon, without blocking AWS | <a href="https://ente.dev/api/blocklist/amazon">domains</a>, <a href="https://ente.dev/api/blocklist/amazon-hosts">hosts</a> |
-| Apple | An Apple a Day keeps your Money away! | <a href="https://ente.dev/api/blocklist/apple">domains</a>, <a href="https://ente.dev/api/blocklist/apple-hosts">hosts</a> |
+| Apple | An Apple a day keeps your money away! | <a href="https://ente.dev/api/blocklist/apple">domains</a>, <a href="https://ente.dev/api/blocklist/apple-hosts">hosts</a> |
 | Cloudflare | Blocks the Cloudflare Network | <a href="https://ente.dev/api/blocklist/cloudflare">domains</a>, <a href="https://ente.dev/api/blocklist/cloudflare-hosts">hosts</a> |
-| Crypto | Blocks Crypto Sites and prevents mining | <a href="https://ente.dev/api/blocklist/crypto">domains</a>, <a href="https://ente.dev/api/blocklist/crypto-hosts">hosts</a> |
-| Facebook | Block all Services relating to Facebook, Instagram & WhatsApp | <a href="https://ente.dev/api/blocklist/facebook">domains</a>, <a href="https://ente.dev/api/blocklist/facebook-hosts">hosts</a> |
-| Google | Blocks Google Services, including YouTube | <a href="https://ente.dev/api/blocklist/google">domains</a>, <a href="https://ente.dev/api/blocklist/google-hosts">hosts</a> |
-| Microsoft | Attempts to block all Microsoft Services, including Skype | <a href="https://ente.dev/api/blocklist/microsoft">domains</a>, <a href="https://ente.dev/api/blocklist/microsoft-hosts">hosts</a> |
+| Crypto | Blocks crypto sites and prevents mining | <a href="https://ente.dev/api/blocklist/crypto">domains</a>, <a href="https://ente.dev/api/blocklist/crypto-hosts">hosts</a> |
+| Facebook | Block all services relating to Facebook, Instagram & WhatsApp | <a href="https://ente.dev/api/blocklist/facebook">domains</a>, <a href="https://ente.dev/api/blocklist/facebook-hosts">hosts</a> |
+| Google | Blocks Google services, including YouTube | <a href="https://ente.dev/api/blocklist/google">domains</a>, <a href="https://ente.dev/api/blocklist/google-hosts">hosts</a> |
+| Microsoft | Attempts to block all Microsoft services, including Skype | <a href="https://ente.dev/api/blocklist/microsoft">domains</a>, <a href="https://ente.dev/api/blocklist/microsoft-hosts">hosts</a> |
 | Pinterest | Blocks Pinterest | <a href="https://ente.dev/api/blocklist/pinterest">domains</a>, <a href="https://ente.dev/api/blocklist/pinterest-hosts">hosts</a> |
 | Snapchat | Blocks the usage of Snapchat | <a href="https://ente.dev/api/blocklist/snapchat">domains</a>, <a href="https://ente.dev/api/blocklist/snapchat-hosts">hosts</a> |
 | Twitter | Blocks <strike>the trash Fire</strike> <strike>Twitter</strike> X? | <a href="https://ente.dev/api/blocklist/twitter">domains</a>, <a href="https://ente.dev/api/blocklist/twitter-hosts">hosts</a> |
 
-Please open an Issue if you find any false flag or have any Domain that should be added to any Blocklist.
+Please open an Issue if you find any false flag or have any Domain(s) that should be added to any Blocklist.
 
 # Awesome Projects
 Thanks to the following, great Projects that are partially included in BetterBlocklist adding to my own Research (and maybe even yours, I would appreciate your Contribution :)
@@ -65,24 +142,18 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://hmirror.molinero.dev/
 - https://coveryourtracks.eff.org/
 
+# ToDo
+- [ ] https://github.com/WilliDieEnte/BetterBlocklist/issues/6
+- [ ] Recode and open-source of the crawler 
+
 # Additions
 - Dependencies are updated automatically every day.
 
-
 - <a href="https://www.makeuseof.com/tag/stop-using-ccleaner-windows/"><b>Why should I avoid CCleaner?</b></a>
 
-- Your hosts file Location:
-   - Linux, Unix and Mac OS X -> ``/etc/hosts``
-   - Windows XP, Vista, 7, 8, 10 and 11 -> ``C:\WINDOWS\system32\drivers\etc\hosts``
-   - Windows 2000 -> ``C:\WINNT\system32\drivers\etc\hosts``
-   - Windows 98/ME -> ``C:\WINDOWS\hosts``
-<br><b>WARNING: Do not use Host files larger than 1MB on Windows directly, Windows can't handle that and won't do any lookups anymore for some obscure reason. Rather use <a href="https://pi-hole.net/">Pi-Hole</a> or <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></b>
+- The <a href="https://ente.dev">ente.dev</a> Domain uses Cloudflare <a href="https://www.cloudflare.com/products/argo-smart-routing/">Argo Smart Routing</a> and <a href="https://www.cloudflare.com/cdn/">CDN</a> in combination with a _decent_ Server for the fastest delivery possible globally, so you shouldn't experience much delay in pulling updates from these lists.
 
-- The ente.dev Domain uses Cloudflare <a href="https://www.cloudflare.com/products/argo-smart-röouting/">Argo Smart Routing</a> and <a href="https://www.cloudflare.com/cdn/">CDN</a> in combination with a strong Server for the fastest delivery possible globally, so you shouldn't experience much delay in pulling updates from these lists.
-
-- <a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution"><b>I very much recommend you to use unbound in addition to Pi-Hole for better Privacy</b></a>
-
-A great Way of finding fake Shops is just searching the following Keywords:
+A great way of finding fake shops is just searching the following keywords:
  - <a href="https://duckduckgo.com/?q=Kindly+keep+in+mind+that+we+produce+on+demand.+We+do+not+stock+items">Kindly keep in mind that we produce on demand. We do not stock items</a>
  - <a href="https://duckduckgo.com/?q=Every+day+we+receive+more+appreciative+emails+from+satisfied+customers+all+over+the+world">Every day we receive more appreciative emails from satisfied customers all over the world</a>
  - <a href="https://duckduckgo.com/?q=Everyday%2C+we+strive+to+deliver+high+quality+products+with+the+greatest+customer+experience+possible">Everyday, we strive to deliver high quality products with the greatest customer experience possible</a>
