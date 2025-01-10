@@ -37,7 +37,7 @@ A collection of Blocklists for various Purposes.
 </details>
 
 > [!TIP]
-> <h4>I very much recommend you to use <a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution">unbound in addition to Pi-Hole</a> for better Privacy.</h4>
+> <h4>I very much recommend you to use <a href="https://docs.pi-hole.net/guides/dns/unbound/#setting-up-pi-hole-as-a-recursive-dns-server-solution">unbound</a> in addition to Pi-Hole for better Privacy.</h4>
 
 <details>
  <summary><h3>with <a href="https://github.com/AdguardTeam/AdGuardHome">AdGuardHome</a></h3></summary>
@@ -109,8 +109,6 @@ A collection of Blocklists for various Purposes.
 > <br>- Domains only: https://ente.dev/api/blocklist/blocklist-name/
 > <br>- Host Files: https://ente.dev/api/blocklist/blocklist-name-hosts/
 > <br>Example: https://ente.dev/api/blocklist/suspicious or https://ente.dev/api/blocklist/tracking-hosts
->
-> <br>If you need further help, don't hesitate to contact me!
 
 # Experimental Lists
 | List | Description | Link |
@@ -120,11 +118,16 @@ A collection of Blocklists for various Purposes.
 | Cloudflare | Blocks the Cloudflare Network | <a href="https://ente.dev/api/blocklist/cloudflare">domains</a>, <a href="https://ente.dev/api/blocklist/cloudflare-hosts">hosts</a> |
 | Crypto | Blocks crypto sites and prevents mining | <a href="https://ente.dev/api/blocklist/crypto">domains</a>, <a href="https://ente.dev/api/blocklist/crypto-hosts">hosts</a> |
 | Facebook | Block all services relating to Facebook, Instagram & WhatsApp | <a href="https://ente.dev/api/blocklist/facebook">domains</a>, <a href="https://ente.dev/api/blocklist/facebook-hosts">hosts</a> |
+| Gambling | Attempts to block legal & illegal Gambling services | <a href="https://ente.dev/api/blocklist/gamble">domains</a>, <a href="https://ente.dev/api/blocklist/gamble-hosts">hosts</a> |
 | Google | Blocks Google services, including YouTube | <a href="https://ente.dev/api/blocklist/google">domains</a>, <a href="https://ente.dev/api/blocklist/google-hosts">hosts</a> |
+| Instagram | Hinders usage of Instagram | <a href="https://ente.dev/api/blocklist/instagram">domains</a>, <a href="https://ente.dev/api/blocklist/instagram-hosts">hosts</a> |
 | Microsoft | Attempts to block all Microsoft services, including Skype | <a href="https://ente.dev/api/blocklist/microsoft">domains</a>, <a href="https://ente.dev/api/blocklist/microsoft-hosts">hosts</a> |
 | Pinterest | Blocks Pinterest | <a href="https://ente.dev/api/blocklist/pinterest">domains</a>, <a href="https://ente.dev/api/blocklist/pinterest-hosts">hosts</a> |
 | Snapchat | Blocks the usage of Snapchat | <a href="https://ente.dev/api/blocklist/snapchat">domains</a>, <a href="https://ente.dev/api/blocklist/snapchat-hosts">hosts</a> |
 | Twitter | Blocks <strike>the trash Fire</strike> <strike>Twitter</strike> X? | <a href="https://ente.dev/api/blocklist/twitter">domains</a>, <a href="https://ente.dev/api/blocklist/twitter-hosts">hosts</a> |
+| Vaping | Vaping isn't better than smoking lol | <a href="https://ente.dev/api/blocklist/vape">domains</a>, <a href="https://ente.dev/api/blocklist/vape-hosts">hosts</a> |
+| WhatsApp | Prevents sending & reciving of WhatsApp messages | <a href="https://ente.dev/api/blocklist/whatsapp">domains</a>, <a href="https://ente.dev/api/blocklist/whatsapp-hosts">hosts</a> |
+| YouTube | Stops YouTube Usage | <a href="https://ente.dev/api/blocklist/youtube">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-hosts">hosts</a> |
 
 Please open an Issue if you find any false flag or have any Domain(s) that should be added to any Blocklist.
 
@@ -144,6 +147,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 
 # To-Do
 - [ ] https://github.com/WilliDieEnte/BetterBlocklist/issues/6
+- [ ] Add ABP Variants https://github.com/WilliDieEnte/BetterBlocklist/issues/22
 - [ ] Recode and open-source of the crawler 
 
 # Additions
