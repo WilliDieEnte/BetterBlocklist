@@ -117,17 +117,18 @@ A collection of Blocklists for various Purposes.
 | Apple | An Apple a day keeps your money away! | <a href="https://ente.dev/api/blocklist/apple">domains</a>, <a href="https://ente.dev/api/blocklist/apple-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/apple-abp">abp</a>--> |
 | Cloudflare | Blocks the Cloudflare Network | <a href="https://ente.dev/api/blocklist/cloudflare">domains</a>, <a href="https://ente.dev/api/blocklist/cloudflare-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/cloudflare-abp">abp</a>--> |
 | Crypto | Blocks crypto sites and prevents mining | <a href="https://ente.dev/api/blocklist/crypto">domains</a>, <a href="https://ente.dev/api/blocklist/crypto-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/crypto-abp">abp</a>--> |
-| Facebook | Block all services relating to Facebook, Instagram & WhatsApp | <a href="https://ente.dev/api/blocklist/facebook">domains</a>, <a href="https://ente.dev/api/blocklist/facebook-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/facebook-abp">abp</a>--> |
+| Facebook | Detects Facebook, Messenger & Marketplace | <a href="https://ente.dev/api/blocklist/facebook">domains</a>, <a href="https://ente.dev/api/blocklist/facebook-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/facebook-abp">abp</a>--> |
 | Gambling | Attempts to block legal & illegal Gambling services | <a href="https://ente.dev/api/blocklist/gamble">domains</a>, <a href="https://ente.dev/api/blocklist/gamble-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/gamble-abp">abp</a>--> |
 | Google | Blocks Google services, without interfering YouTube[^3] | <a href="https://ente.dev/api/blocklist/google">domains</a>, <a href="https://ente.dev/api/blocklist/google-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/google-abp">abp</a>--> |
 | Instagram | Hinders usage of Instagram | <a href="https://ente.dev/api/blocklist/instagram">domains</a>, <a href="https://ente.dev/api/blocklist/instagram-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/instagram-abp">abp</a>--> |
 | Microsoft | Attempts to block all Microsoft services, including Skype | <a href="https://ente.dev/api/blocklist/microsoft">domains</a>, <a href="https://ente.dev/api/blocklist/microsoft-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/microsoft-abp">abp</a>--> |
 | Pinterest | Blocks Pinterest | <a href="https://ente.dev/api/blocklist/pinterest">domains</a>, <a href="https://ente.dev/api/blocklist/pinterest-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/pinterest-abp">abp</a>--> |
+| Reddit | Reddit < actual Forums imo | <a href="https://ente.dev/api/blocklist/reddit">domains</a>, <a href="https://ente.dev/api/blocklist/reddit-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/reddit-abp">abp</a>--> |
 | Snapchat | Blocks the usage of Snapchat | <a href="https://ente.dev/api/blocklist/snapchat">domains</a>, <a href="https://ente.dev/api/blocklist/snapchat-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/snapchat-abp">abp</a>--> |
 | Twitter | Blocks <strike>the trash Fire</strike> <strike>Twitter</strike> X? | <a href="https://ente.dev/api/blocklist/twitter">domains</a>, <a href="https://ente.dev/api/blocklist/twitter-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/twitter-abp">abp</a>--> |
 | Vaping | Vaping isn't better than smoking lol | <a href="https://ente.dev/api/blocklist/vape">domains</a>, <a href="https://ente.dev/api/blocklist/vape-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/vape-abp">abp</a>--> |
-| ~~WhatsApp~~ | ~~Prevents sending & reciving of WhatsApp messages~~ | <!--<a href="https://ente.dev/api/blocklist/whatsapp">domains</a>, <a href="https://ente.dev/api/blocklist/whatsapp-hosts">hosts</a>--> Currently broken, fixing ASAP<!--, <a href="https://ente.dev/api/blocklist/whatsapp-abp">abp</a>--> |
-| ~~YouTube~~ | ~~Stops YouTube Usage~~ | <!--<a href="https://ente.dev/api/blocklist/youtube">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-hosts">hosts</a>--> Currently broken, fixing ASAP<!--, <a href="https://ente.dev/api/blocklist/youtube-abp">abp</a>--> |
+| WhatsApp | Prevents sending & reciving of WhatsApp messages | <a href="https://ente.dev/api/blocklist/whatsapp">domains</a>, <a href="https://ente.dev/api/blocklist/whatsapp-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/whatsapp-abp">abp</a>--> |
+| YouTube | Stops YouTube Usage | <a href="https://ente.dev/api/blocklist/youtube">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/youtube-abp">abp</a>--> |
 
 [^3]: This will still prevent logging into YouTube, as it blocks Google's OAuth; already logged-in sessions will remain.
 
@@ -148,7 +149,7 @@ Thanks to the following, great Projects that are partially included in BetterBlo
 - https://coveryourtracks.eff.org/
 
 # To-Do
-- [ ] https://github.com/WilliDieEnte/BetterBlocklist/issues/6
+- [ ] Public uptime page to properly track the API modules https://github.com/WilliDieEnte/BetterBlocklist/issues/6
 - [ ] Add ABP Variants https://github.com/WilliDieEnte/BetterBlocklist/issues/22
 - [ ] Recode and open-source of the crawler 
 
