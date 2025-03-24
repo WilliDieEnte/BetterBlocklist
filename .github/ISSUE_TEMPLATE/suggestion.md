@@ -1,7 +1,7 @@
 ---
 name: Suggestion
 about: Suggest new Domains or even new Blocklist Categories
-title: SUGGESTION -
+title: ''
 labels: suggestion
 assignees: WilliDieEnte
 
