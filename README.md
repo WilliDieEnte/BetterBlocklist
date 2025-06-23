@@ -100,7 +100,7 @@ A collection of Blocklists for various Purposes.
 | Tracking | Sites and services dedicated to gathering info about you | <a href="https://ente.dev/api/blocklist/tracking">domains</a>, <a href="https://ente.dev/api/blocklist/tracking-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/tracking-abp">abp</a>--> |
 | TV | Smart TV & Fire TV telemetry and ads | <a href="https://ente.dev/api/blocklist/tv">domains</a>, <a href="https://ente.dev/api/blocklist/tv-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/tv-abp">abp</a>--> |
 | TikTok | Blocks TikTok, formerly known as Musically | <a href="https://ente.dev/api/blocklist/tiktok">domains</a>, <a href="https://ente.dev/api/blocklist/tiktok-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/tiktok-abp">abp</a>--> |
-| YouTube-Ads | Blocks some[^2] ads without blocking actual YouTube videos | <a href="https://ente.dev/api/blocklist/youtube-advertising">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-hosts">hosts</a><!--, <a href="https://ente.dev/api/blocklist/youtube-advertising-abp">abp</a>--> |
+| YouTube-Ads | Blocks some[^2] ads without blocking actual YouTube videos | Deprecated <!--<a href="https://ente.dev/api/blocklist/youtube-advertising">domains</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-hosts">hosts</a>, <a href="https://ente.dev/api/blocklist/youtube-advertising-abp">abp</a>--> |
 
 [^2]: This is pretty whack-a-mole and will never be perfect, especially with YouTube now testing server side inserted Advertisements, which make this impossible :/
 
